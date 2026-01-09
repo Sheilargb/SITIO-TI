@@ -1,16 +1,57 @@
 h1{
-    color: #3516e2
+    color: #04a9b4
 }
 body{
     background-color: azure;
 }
  #encabezado {
-    background-color: #ffffff;
+    background-color: #fffcfcfa;
     height: 150px;
     width: 80%;
     margin: 0 auto;
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 5px 5px hsl(182, 94%, 40%);
-
+    box-shadow: 10px 10px 5px hsl(182, 94%, 40%);
+    display:flex
  }
+ .logo{
+    background-color: #ffffff;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .logo img{
+    width: 100%;
+    height: auto;
+ }
+ .menu{
+    background-color: #a6ebe1;
+    width: 55%;
+    
+ }
+ .menu ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+    display: flex;
+ }
+ .menu ul li{
+    margin: 0;
+    padding: 15px 20px;
+    color: white;
+ }
+ .menu ul li a{
+    text-decoration: none;
+    color: black;
+ }
+ .menu ul li a:hover{
+    background-color: #04a9b4;
+    padding: 15px 20px;
+ }
+ .redes{
+    background-color: #04a9b4;
+    width: 20;
+ }
+
+ 
