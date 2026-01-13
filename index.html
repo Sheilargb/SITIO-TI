@@ -1,41 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tecnologias de la Informacion</title>
+    <title>Tecnologías de la Información</title>
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
-    <div id="encabezado">
-        <div class="logo"><img src="IMAGENES/academia.png" alt="logo"></div>
-        <div class="menu">
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Nosotros</a></li>   
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Carreras</a></li>
-                <li><a href="#">Galerias</a></li>
-                <li><a href="#">Proyectos</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contacto</a></li>
-                <li><a href="#">Campus Virtual</a></li>
-            </ul>
+
+    <!-- CONTENEDOR GENERAL -->
+    <div id="contenedor">
+
+        <!-- ENCABEZADO -->
+        <div id="encabezado">
+            <div class="logo">
+                <img src="IMAGENES/academia.png" alt="Logo">
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Carreras</a></li>
+                    <li><a href="#">Galerías</a></li>
+                    <li><a href="#">Proyectos</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Campus Virtual</a></li>
+                </ul>
+            </div>
+
+            <div class="redes">
+                <img src="IMAGENES/facebook.png">
+                <img src="IMAGENES/whatsapp.png">
+                <img src="IMAGENES/youtube.png">
+                <img src="IMAGENES/linkedin.png">
+                <img src="IMAGENES/correo.png">
+            </div>
         </div>
-        <div class="redes">
-        <a href="#"><img src="IMAGENES/facebook.png" alt="Facebook"></a>
-        <a href="#"><img src="IMAGENES/whatsapp.png" alt="WhatsApp"></a>
-        <a href="#"><img src="IMAGENES/youtube.png" alt="YouTube"></a>
-        <a href="#"><img src="IMAGENES/linkedin.png" alt="LinkedIn"></a>
-        <a href="#"><img src="IMAGENES/correo.png" alt="Correo"></a>
+
+        <!-- SECCIÓN CARDS -->
+        <div id="cards">
+            <div class="card">Secciones de texto cards</div>
+            <div class="card">Secciones de texto cards</div>
+            <div class="card">Secciones de texto cards</div>
         </div>
+
+        <!-- SECCIÓN GRANDE -->
+        <div id="seccion-principal">
+            Sección
+        </div>
+
+        <!-- PIE DE PÁGINA -->
+        <div id="pie">
+            <div class="pie1">PIE 1</div>
+            <div class="pie2">PIE 2</div>
+        </div>
+
     </div>
-       
-    <button onclick="saludar()">Saludar</button>
-    <button onclick="suma()">Suma</button>
-    <button onclick="resta()">Resta</button>
-    <button onclick="multiplicacion()">Multiplicacion</button>
-    <button onclick="division()">Division</button>
-    <script src="JS/funciones.js"></script>
+
 </body>
 </html>
